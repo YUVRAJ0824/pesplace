@@ -1,7 +1,0 @@
-
-git init
- git config --global user.name "Yuvraj V"
-git config --global user.email "yraj3342@gmail.com"
-git commit -m "first commit"
-git branch -M main
-git branch -M dev

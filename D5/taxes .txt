@@ -1,0 +1,62 @@
+about fastapi
+
+fastapi is a modern python web framework for building fast, high-performance rest apis. it automatically handles request/response validation, serialization, and generates interactive documentation.
+
+key features:
+- fast performance with automation
+- built-in data validation 
+- auto-generate interactive api documentation ,swagger ui
+
+import/export tax rates by country
+note: all tax rates are based on 2026 standards
+
+countries: usa, india, china, germany, japan
+products: car, bike, phone, laptop, smartwatch
+
+
+quick tax summary:
+usa: low tariffs (0-2.5%)
+india: highest tariffs (10-100%, cars at 100%)
+china: moderate tariffs (5-25%)
+germany: moderate tariffs (0-10%)
+japan: zero tariffs
+example: car tax rates across all countries
+
+
+country import tax (%) export tax (%)
+usa        2.5       0.5
+india      100        0
+china      25         0
+germany    10         0
+japan      0          0
+
+
+if you import a car to india
+ you pay 100% import tax. in usa, you only pay 2.5%. japan has the lowest tax at 0%. most countries charge little to no export taxes on cars.
+pricing calculation with base price and inflation
+
+
+base car price: bmw m5 competition 2026 in india (1.25 crore)
+inflation rate 2026: 5%
+
+estimated final prices after taxes and inflation:
+japan (jpy yen): ~23,863,600 jpy = 1.31 cr inr (zero taxes)
+usa (usd): ~161,100 usd = 1.35 cr inr (2.5% tax)
+germany (eur): ~160,400 eur = 1.44 cr inr (10% tax)
+china (cny): ~1,426,600 cny = 1.64 cr inr (25% tax)
+india (inr): 2.62 cr inr (base price doubled due to 100% import tax)
+
+Japan: 1.31 cr (cheapest!)
+USA: 1.35 cr
+Germany: 1.44 cr
+China: 1.64 cr
+India: 2.62 cr
+
+
+
+key insight:
+india has the highest final price due to 100% import tax - car costs double!
+japan is cheapest with zero taxes.
+usa, germany, china have moderate pricing with varying tariffs.
+Japan is cheapest because zero taxes are applied to
+ the baseline global value.

@@ -1,0 +1,19 @@
+ below 12lpa learn sort linear binary so 
+ above 12lpa is bfs dfs and heavy stuff 
+
+  flowcharts diagram
+
+  oval               start/end
+  rectangle          process/action
+  diamond            decision
+  arrow              flow direction
+  parallelogram         input/output
+
+
+
+
+good  code =  code comments with naming 
+ and using def with nameof topic or problem
+ using standards words for print statments
+ eg: print("yes")  X  
+ print("this is correct/avilable")    correct
