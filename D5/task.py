@@ -65,3 +65,49 @@ result = parking(vehicle, target)
 print("vehicle found at slot:", result)
 # {} or , method use this
 print(f"vehicle found at slot: {result}")
+
+
+
+"""
+system hosptial with highest priority are treated input
+ patient a,b,c
+ prioty order is a=3,b=1,c=5
+using queue
+# tested own method=flop faah
+print("\npatient priority assigned treating")
+#importing lib queue and this types
+from queue import PriorityQueue
+
+patients = PriorityQueue()
+#setting order syntax name.put((order,'name'))
+patients.put((-3, 'Patient A')) 
+patients.put((-1, 'Patient B')) 
+patients.put((-5, 'Patient C'))  
+
+print("patients priority :")
+ 
+"""
+
+import heapq
+patients = []
+heapq.heappush(patients,(-3,"A"))
+heapq.heappush(patients,(-1,"B"))
+
+heapq.heappush(patients,(-%,"C"))
+while patients:
+    print(heapq.heapqpop{patients[1]})
+
+    
+    
+"""
+online store product with id and custmoer search by id searching Millions of products is low
+ products=[1005,1001,1020,1015,1010,1025]
+ target=1015
+ insertion sort 
+ op=produuct found at index 3
+ else return 
+
+ sort list then check id exists or not 
+
+
+"""

@@ -1,0 +1,50 @@
+DATABASE types 
+
+sql,nosql
+
+
+sql type 
+mysql 
+oracle sql 
+sql lite
+postgre sql
+ms sql
+
+no sql 
+supabase
+mongodb
+coach etc 
+
+
+DATABASE an  software  organised collection of related data that can be easily
+ managed
+
+data=row facts like text dates etc
+info
+
+
+
+s1:create db
+s2:use db
+s3:create tables
+s4:inserting of data into tables,display data/tables,update details,delete unwanted data section
+
+
+
+file system vs DBMS
+whree and when to use 
+pros cons etc 
+
+
+DATABASE models
+
+
+hierarchical
+network(client server arch based)
+relation  
+
+compare
+
+
+#monday banking system sql section push class room monday 10am 
+

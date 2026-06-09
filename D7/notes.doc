@@ -1,0 +1,15 @@
+sql architecture 
+user application
+parser &optimizer 
+execution engine 
+storage managers
+
+and sql and no sql taks today
+
+
+
+sql 
+DDL  drop alter create trunicate
+DML   select delete update insert 
+DCL/TCL   grant revoke rollback  commit
+
